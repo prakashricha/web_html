@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+  body {
+  background-color: lightgray;
+}
+</style>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          
+        <a class="navbar-brand" href="#" ><div id="backgrdcolor"><p><font size = 13>Lattitude</font></p></div></a>
+        
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plot<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>       
+          <li><a href="../comparision/index.html">Comparision</a></li>
+          <li><a href="../data/index.html">Data</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+    <div class="container">
+        
+      
+            <div class="row">
+                <div class="col-md-8"> 
+                            
+                    <h2 vspace =20>Cloudiness</h2>
+                    <p></p>
+                    <img  src="Fig3.png" alt="..."  style="width:600px;height:400px;" align = "middle" hspace = 20 vspace =20>
+                    <p><font size = 5>The purpose of this project is to analyze how weather changes as we move closer to the equator. To accomplish this, we first pulled data from 
+                      OpenWeatherMap API to assemble the dataset on over 500 cities. After assembling the dataset we used Matplotlib to plot various aspects of 
+                      weather vs lattitude . Factors we looked at included :  tempreture,cloudiness,windspeed and humidity. This Provides the source data and visualization as part of 
+                      the analysis, as well as explainations and description of any trends and correlations witnessed
+                    </font></p>
+                    </div>
+                  
+              
+                    <div class="col-md-4">
+                        <h3>Visualization</h3>
+                           <p>...</p>
+                           <a href="../visualization1/index.html">
+                                                         
+                           <img width = 100 src="Fig1.png" alt="..." style="width:150px;height:150px;" vspace= 20 hspace="20">
+                           </a>
+                           <a href="../visualization2/index.html">
+                           <img width = 100 src="Fig2.png" alt="..." style="width:150px;height:150px;"></br>
+                         </a>
+                           <a href="../visualization3/index.html">
+                           <img width = 100 src="Fig3.png" alt="..." style="width:150px;height:150px;" hspace="20">
+                         </a>
+                         <a href="../visualization4/index.html">
+                           <img width = 100 src="Fig4.png" alt="..." style="width:150px;height:150px;">
+                       </a>
+                           
+                       </div>
+            </div>
+    
+  </div>
+
+  
+
+</body>
+
+</html>
